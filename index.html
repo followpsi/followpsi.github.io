@@ -4,63 +4,83 @@
   <meta charset="UTF-8">
   <title>Портфолио | Валерий Рындин</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:500&amp;subset=cyrillic" rel="stylesheet">
-  <link href="./css/normalize.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-  <main class="container">
-    <div class="portfolio-item clearfix">
-      <img alt="Техномарт" src="./img/technomart.jpg" width="250" height="250">
-      <div class="description">
-        <h2>Техномарт</h2>
-        <ul>
-          <li>Фиксированная сетка (на flexbox)</li>
-          <li>Слайдер (на CSS)</li>
-          <li>Модальный контент</li>
-          <li>Pixel Perfect</li>
-        </ul>
-        <a class="btn" href="https://followpsi.github.io/technomart/">На страницу</a>
-        <a class="btn" href="https://github.com/followpsi/technomart/">В репозиторий</a>
+  <main>
+    <div class="portfolio">
+      <div class="portfolio-item">
+        <div class="portfolio-item__image">
+          <img alt="Техномарт" src="./img/technomart.jpg" width="250" height="250">
+        </div>
+        <div class="portfolio-item__description">
+          <h2 class="portfolio-item__name">Техномарт</h2>
+          <ul class="portfolio-item__features">
+            <li>Фиксированная сетка (flexbox)</li>
+            <li>Слайдер (CSS)</li>
+            <li>Модальный контент</li>
+            <li>Pixel Perfect</li>
+          </ul>
+          <ul class="portfolio-item__actions">
+            <li><a class="portfolio-item__button" href="https://followpsi.github.io/technomart/">На страницу</a></li>
+            <li><a class="portfolio-item__button" href="https://github.com/followpsi/technomart/">В репозиторий</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-item clearfix">
-      <img alt="Picto" src="./img/picto.jpg" width="250" height="250">
-      <div class="description">
-        <h2>Picto</h2>
-        <ul>
-          <li>Фиксированная сетка (на float)</li>
-          <li>Pixel Perfect</li>
-        </ul>
-        <a class="btn" href="https://followpsi.github.io/picto/">На страницу</a>
-        <a class="btn" href="https://github.com/followpsi/picto/">В репозиторий</a>
+
+      <div class="portfolio-item">
+        <div class="portfolio-item__image">
+          <img alt="Picto" src="./img/picto.jpg" width="250" height="250">
+        </div>
+        <div class="portfolio-item__description">
+          <h2 class="portfolio-item__name">Picto</h2>
+          <ul class="portfolio-item__features">
+            <li>Фиксированная сетка (float)</li>
+            <li>Pixel Perfect</li>
+          </ul>
+          <ul class="portfolio-item__actions">
+            <li><a class="portfolio-item__button" href="https://followpsi.github.io/picto/">На страницу</a></li>
+            <li><a class="portfolio-item__button" href="https://github.com/followpsi/picto/">В репозиторий</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-item clearfix">
-      <img alt="Нёрдс" src="./img/nerds.jpg" width="250" height="250">
-      <div class="description">
-        <h2>Нёрдс</h2>
-        <ul>
-          <li>Фиксированная сетка (на float)</li>
-          <li>Слайдер (на CSS)</li>
-          <li>Иконочный шрифт (через CDN)</li>
-          <li>Модальный контент</li>
-          <li>Интерактивная карта</li>
-        </ul>
-        <a class="btn" href="https://followpsi.github.io/nerds/">На страницу</a>
-        <a class="btn" href="https://github.com/followpsi/nerds/">В репозиторий</a>
+
+      <div class="portfolio-item">
+        <div class="portfolio-item__image">
+          <img alt="Нёрдс" src="./img/nerds.jpg" width="250" height="250">
+        </div>
+        <div class="portfolio-item__description">
+          <h2 class="portfolio-item__name">Нёрдс</h2>
+          <ul class="portfolio-item__features">
+            <li>Фиксированная сетка (float)</li>
+            <li>Слайдер (CSS)</li>
+            <li>Иконочный шрифт</li>
+            <li>Модальный контент</li>
+            <li>Интерактивная карта</li>
+          </ul>
+          <ul class="portfolio-item__actions">
+            <li><a class="portfolio-item__button" href="https://followpsi.github.io/nerds/">На страницу</a></li>
+            <li><a class="portfolio-item__button" href="https://github.com/followpsi/nerds/">В репозиторий</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="portfolio-item clearfix">
-      <img alt="Барбершоп «Бородинский»" src="./img/barbershop.jpg" width="250" height="250">
-      <div class="description">
-        <h2>Барбершоп «Бородинский»</h2>
-        <ul>
-          <li>Фиксированная сетка (на float)</li>
-          <li>Модальный контент</li>
-          <li>Интерактивная карта</li>
-        </ul>
-        <a class="btn" href="https://followpsi.github.io/barbershop/">На страницу</a>
-        <a class="btn" href="https://github.com/followpsi/barbershop/">В репозиторий</a>
+
+      <div class="portfolio-item">
+        <div class="portfolio-item__image">
+          <img alt="Барбершоп «Бородинский»" src="./img/barbershop.jpg" width="250" height="250">
+        </div>
+        <div class="portfolio-item__description">
+          <h2 class="portfolio-item__name">Барбершоп «Бородинский»</h2>
+          <ul class="portfolio-item__features">
+            <li>Фиксированная сетка (float)</li>
+            <li>Модальный контент</li>
+            <li>Интерактивная карта</li>
+          </ul>
+          <ul class="portfolio-item__actions">
+            <li><a class="portfolio-item__button" href="https://followpsi.github.io/barbershop/">На страницу</a></li>
+            <li><a class="portfolio-item__button" href="https://github.com/followpsi/barbershop/">В репозиторий</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </main>
