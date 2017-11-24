@@ -16,22 +16,14 @@ body {
   line-height: 1.25;
 }
 
-.portfolio {
-  display: flex;
-  flex-flow: column;
-  flex-shrink: 0;
-
-  width: 620px;
-  margin: 0 auto;
-  padding: 0 10px;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-item {
-  display: flex;
-  flex-shrink: 0;
-  justify-content: space-between;
-
-  width: 100%;
+  width: 600px;
+  margin: 0 auto;
   padding: 50px 0;
 
   border-bottom: 2px solid #eee;
@@ -41,16 +33,18 @@ body {
   border-bottom: none;
 }
 
-.portfolio-item__image {
+.portfolio-item img {
   width: 250px;
   height: 250px;
 }
 
-.portfolio-item__description {
+.portfolio-item div {
+  float: right;
+
   width: 300px;
 }
 
-.portfolio-item__name {
+.portfolio-item h2 {
   margin: 0;
   margin-bottom: 20px;
 
@@ -60,7 +54,7 @@ body {
   font-weight: 500;
 }
 
-.portfolio-item__features {
+.portfolio-item ul {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
@@ -68,7 +62,7 @@ body {
   list-style: none;
 }
 
-.portfolio-item__features li {
+.portfolio-item li {
   position: relative;
 
   padding-left: 35px;
@@ -76,7 +70,7 @@ body {
   font-weight: normal;
 }
 
-.portfolio-item__features li::before {
+.portfolio-item li::before {
   position: absolute;
   top: 50%;
   left: 0;
@@ -92,25 +86,15 @@ body {
   background-color: #fb565a;
 }
 
-.portfolio-item__actions {
-  display: flex;
-  justify-content: space-between;
-
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-  list-style: none;
-}
-
-.portfolio-item__button {
-  display: block;
+.portfolio-item a {
+  display: inline-block;
 
   width: 140px;
+  margin-right: 8px;
   padding: 10px 0;
 
-  cursor: pointer;
   text-align: center;
+  vertical-align: top;
   text-decoration: none;
   text-transform: uppercase;
 
@@ -122,14 +106,14 @@ body {
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 18px;
 }
 
-.portfolio-item__button:hover {
+.portfolio-item a:hover {
   background-color: #d6494d;
 }
 
-.portfolio-item__button:active {
+.portfolio-item a:active {
   background-color: #b63538;
   box-shadow: inset 0 3px rgba(0, 0, 0, 0.15);
 }
